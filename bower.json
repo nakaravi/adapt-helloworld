@@ -1,0 +1,21 @@
+{
+    "name": "adapt-ravPicker",
+    "repository": {
+        "type":"git",
+        "url": "git://github.com/nakaravi/adapt-helloworld.git"
+    },
+    "framework": ">=4",
+    "version": "3.0.2",
+    "homepage": "https://github.com/nakaravi/adapt-helloworld",
+    "issues": "https://github.com/nakaravi/adapt-helloworld/issues",
+    "displayName": "Rav Picker",
+    "extension": "ravPicker",
+    "description": "An extension to allow the learner to select the course language in multi-language course",
+    "main": "/js/adapt-ravPicker.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_ravPicker"
+}

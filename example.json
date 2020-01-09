@@ -1,0 +1,41 @@
+// To go in config.json
+
+"_ravPicker": {
+    "_isEnabled": true,
+    "title": "Rav selection",
+    "displayTitle": "Please select a rav",
+    "body": "This course is available in the following ravs:",
+    "_showOnCourseLoad": true,
+    "_comment": "default class names are: icon-globe, icon-rav-1, icon-rav-2",
+    "_ravPickerIconClass": "icon-rav-2",
+    "_restoreStateOnRavChange": false,
+    "_ravs": [
+        {
+            "_rav": "en",
+            "_direction": "ltr",
+            "displayName": "English",
+            "warningTitle": "Change rav?",
+            "warningMessage": "Changing the rav will reset course progress.<br><br>Would you like to proceed?",
+            "_buttons": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        {
+            "_rav": "de",
+            "_direction": "ltr",
+            "displayName": "Deutsch",
+            "warningTitle": "Sprache ändern?",
+            "warningMessage": "Ändern der Sprache wird den Fortschritt des Kurses zurücksetzen.<br><br>Möchte Sie fortfahren?",
+            "_buttons": {
+                "yes": "Ja",
+                "no": "Nein"
+            }
+        }
+    ]
+}
+
+// to be added to the _extensions object in course.json
+"_ravPicker": {
+    "navigationBarLabel" : "Select course rav"
+}
