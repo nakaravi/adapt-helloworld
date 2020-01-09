@@ -1,0 +1,19 @@
+<div class="ravpicker-inner">
+    <div class="ravpicker-title">
+        <div class="ravpicker-title-inner" role="heading" aria-level="1">
+            {{{compile displayTitle}}}
+        </div>
+    </div>
+    <div class="ravpicker-body">
+        <div class="ravpicker-body-inner">
+            {{{compile body}}}
+        </div>
+    </div>
+    <div class="ravpicker-ravs">
+        {{#each _ravs}}
+            <button class="ravpicker-rav {{_rav}}" role="link" value="{{_rav}}">
+                {{{compile displayName}}}
+            </button>
+        {{/each}}
+    </div>
+</div>
